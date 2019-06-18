@@ -42,6 +42,13 @@ header{
     margin-left: 27px; 
 }
 
+header img.logo {
+    position: absolute;
+    z-index: 2;
+    left: 1px;
+    top: 3px;
+}
+
 /* MAIN */
 .top-image{
     display: flex;
@@ -57,15 +64,6 @@ header{
    
 }
 
-.top-image img.logo {
-    position: absolute;
-    z-index: 2;
-    margin-top: -19px;
-    margin-left: 45.3px;
-    left: 100px;
-    top: 30px;
-    align-items: center;
-}
 
 .top-image img.sign {
     position: absolute;
@@ -135,8 +133,6 @@ header{
 }
 /* FOOTER */
 footer{
-    margin: 0 auto;
-    width: 100%;
     display: flex;
     height: 128px;
     justify-content: center;
@@ -144,10 +140,16 @@ footer{
     background-color: #111111;
     color: #FFFFFF;
     font-size: 16px;
-    margin-top: 75px;
-    margin-left: 70px;
+    margin-top: 92px;
 }
 footer p {
+
     text-align: center;
-    margin-top:55.51px;
+}
+
+
+@media screen and (min-width:960px) and (max-width:1279px){
+    .header{
+       
+    }
 }
